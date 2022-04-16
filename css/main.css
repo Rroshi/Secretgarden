@@ -1,0 +1,566 @@
+html{
+    scroll-behavior: smooth;
+    height:100vh;
+}
+
+body{    
+    padding-top: 1px;
+    overflow-x: hidden;
+    @import url(//db.onlinewebfonts.com/c/651d0d8cf5ba7d50962c918efcb24508?family=NexaScriptW00-SemiBold);
+    font-family: "NexaScriptW00-SemiBold";
+    height:100vh;
+    
+    
+}
+
+/* color #171717 --- e zeze */
+/* color #FFFFFF --- e bardhe */
+/* color #F7EBEB --- */
+
+.primary-color{
+    color: #171717;
+}
+
+.secondary-color{
+    color: #FFFFFF;
+}
+
+/* semi-navbar  */
+.into{    
+    background: #F7EBEB;
+}
+
+.into a{
+    transition: 2s ease-in-out;
+}
+
+.into a:hover{
+    color: #171717;
+}
+/* end of semi-navbar  */
+
+
+
+/* Faqja e pare */
+
+#head{
+    background-image: url(/foto11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+.head{
+    height:100%;
+}
+#head .container{
+    opacity: 1;
+}
+
+.secret{ /*secret logo*/
+    font-size:310%;
+}
+
+.banner h3{  /* shfaqja e sophie logo*/
+    animation:fromLeft;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+   
+}
+
+.fs{ /*flower shop*/
+    color:#F7EBEB;
+    font-size: 30px;
+    font-family: "NexaScriptW00-SemiBold";
+}
+
+.fs{ /*shfaqja e flower shop*/
+    animation:fromRight;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity:0;
+    animation-fill-mode: forwards;
+}
+
+.actym{  /*sdding colours to your moments*/
+    font-size:190%;
+    color:#F7EBEB;
+}
+
+.actym{  /*shfaqja e adding colours to your moments*/
+    animation:fromLeft;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.main-btn{  /* Butoni BLINI ONLINE */
+    font-size: 22px;
+    text-align: center;
+    transition: 2s ease-in-out;
+    position: relative;
+    left: 50%; 
+    margin-left: -72px;
+    color:#F7EBEB;
+    border: 2px solid #F7EBEB;
+}
+.main-btn:hover{
+    color: #F7EBEB;
+}
+
+.sp-btn{  /*  Shfaqja e BLINI ONLINE */
+    animation:fromRight;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+.h-link{  /* Butoni SCROLL DOWN */
+    display: inline-block;
+    position: relative;
+    left: 50%; 
+    margin-top: -10px;
+    margin-left: -25px;
+    transition: 2s ease-in-out;
+    bottom: 5%;
+    border-radius: 8px;
+    font-size: 12px;
+    color:#F7EBEB;
+    border: 2px solid #F7EBEB;
+    animation: fromBottom;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.h-link:hover{
+    color: #F7EBEB;
+}
+
+
+/* shfaqja e fjaleve */
+@keyframes fromBottom{
+    0%{
+        transform:translateY(-8px); 
+    }
+    50%{
+        transform:translateY(8px);
+    }
+    100%{
+        transform:translateY(-8px);\
+    }
+}
+
+@keyframes fromRight{
+    0%{
+        transform:translateX(100px);
+        opacity:0;
+    }
+    50%{
+        transform:translateX(-30px);
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+@keyframes fromLeft{
+    0%{
+        transform:translateX(-100px);
+        opacity:0;
+    }
+    50%{
+        transform:translateX(30px);
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+/* Fundi i Faqes se pare  */
+
+
+
+/*################### NAVBAR ############################## */
+
+.navbar{
+    background: #F7EBEB;
+    padding: 3px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.nav-link{           /*seksionet brenda navbarit*/
+    color: #171717;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    z-index: 3;
+}
+
+.nav-link:hover{
+    color: #171717;
+}
+
+/* COLLAPSE NAVBAR */
+.toggler-btn{
+    border: 2px solid #171717;
+    padding: 5px;
+    transition: 2s ease-in-out; 
+}
+
+.navbar-nav > li{  /* Hapesira ndermjet seksioneve  */
+  padding-left:5px;
+  padding-right:4px;
+}
+
+.icon-bar{  /* Vijat e collapse navbar */
+    width: 30px;
+    margin: 5px;
+    height: 3px;
+    background-color: #171717;
+    transition: 0.5s ease-in-out;
+}
+
+.shporta{
+    text-align: center;
+    display: inline-block;
+}
+
+.cart-icon{ /*shporta ne navbar*/
+    cursor: pointer;
+    color: #171717;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+/* Sticky navbar */
+.content{
+  padding: 16px;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content{
+  padding-top: 60px;
+}
+/* Fundi i Sticky navbar */
+
+
+/*################### end of NAVBAR ############################## */
+
+
+/* ######################### Produktet ############################ */
+
+.card{ /*produktet*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  background: #F7EBEB;
+}
+
+.price{  /*cmimi i produkteve*/
+  color: #171717;
+  font-size: 22px;
+}
+
+.button-inf{ /* Butoni shtoni ne shporte*/
+  border: none;
+  outline: 0;
+  padding: 5px;
+  color: #F7EBEB;
+  background-color: #171717;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.button-inf:hover{
+  opacity: 0.7;
+}
+
+.pff{  /*vendosja e emrit te produkteve ne qender*/
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Faqja e produkteve responsive*/
+.column{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row{
+    margin: 0 -5px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 767px) {
+  .column{
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .column{
+    width: 33%;
+  }
+}
+@media screen and (min-width: 1500px) {
+    .foto > img {
+        256w;
+    }
+}
+@media screen and (min-width: 568px) and (max-width: 1499px){
+    .foto > img {
+       width:270px;
+    height:270px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 567px){
+    .foto > img {
+    width:167px;
+    height:167px;
+}
+}
+
+
+
+/* Fundi i Faqes se produkteve responsive*/
+
+
+
+/* ######################  Raste ##################### */
+
+.zoom{
+    overflow: hidden; 
+    position: relative;
+}
+
+
+.ab{  /* shkrimi */
+    font-size:  32px;
+}
+/* ################# Fundi i rasteve #################### */
+
+
+/* #####   About us  #####*/
+
+.img-1{
+   top: 0%;
+    left: 0%;
+}
+
+.read-btn{ /*about us*/
+    font-size: 20px;
+    text-align: center;
+    transition: 0.8s ease-in-out;
+    border: 2px solid #171717;
+    color:#171717;
+    background-color: #F7EBEB;
+}
+
+.read-btn:hover{
+    background-color: #171717;
+    color:#F7EBEB;
+    border: 3px solid #F7EBEB;
+}
+
+.image-aboutus{ /* me shume info */
+    height: 250px;
+    width: 400px;
+}
+
+.image-au{
+    height: 250px;
+    width: 500px;
+}
+
+.au-image{
+    text-align: center;
+    display: inline-block;
+}
+
+.aboutus-image{
+    text-align: center;
+    display: inline-block;
+}
+
+/* #######  end of About us  #######*/
+
+/* Shigjeta qe con ne fillim te faqes */
+
+#back-to-top1{
+  display: inline-block; 
+  text-decoration: none;
+  border: 4px solid #171717; 
+  outline: none; 
+  background-color: #F7EBEB; 
+  color: #171717;
+  padding: 4px; 
+  border-radius: 8px ;
+  font-size: 15px;
+  width: 32px;
+  transition: 2s ease-in-out;
+  text-align: center;
+}
+
+#back-to-top:hover{
+    background-color: #a03123;
+    color: #F0FFBA;
+    border-radius: 8px;
+    border: solid #F0FFBA;
+}
+
+.scrollTop{
+   position: fixed;
+   bottom: 15px;
+   right: 10px;
+}
+.scrollTop1{
+   position: fixed;
+   bottom: 25px;
+   right: 10px;
+}
+
+/* Fundi i Shigjetes */
+
+/* ######  Footer ####### */
+
+.footer{
+    text-align: center;
+    background-color: #F7EBEB;
+    border-top: 1px #F7EBEB;
+    
+}
+
+.social-media{
+  padding: 3px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+.lord{ /* seksionet ne footer */
+    text-decoration: none;
+    color: #171717;
+}
+.lord:hover{
+    text-decoration: none;
+    color: #171717;
+}
+
+/* #### end of footer ###### */
+
+
+#top{
+    font-size: 1px;
+    background: #FFFFFF;
+}
+
+.pffff{
+    color: #FFFFFF;
+    font-size:16px;
+}
+
+.sss{
+    position: relative;
+    background-color: #171717; 
+    border:1px solid #171717;
+}
+.zoom{
+    overflow: hidden; 
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+   margin: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+}
+
+.zoom:hover .item-img{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.item-img{
+    transition: all 2s ease;
+    opacity:1;
+}
+.item-img{
+    border:2px solid #171717;
+}
+@media screen and (min-width: 992px){
+.zoom {
+    margin: 25px;
+    -ms-flex: 0 0 calc(25% - 50px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 50px);
+    max-width: calc(25% - 50px);
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 882px){
+.zoom {
+    margin: 20px;
+    -ms-flex: 0 0 calc(33% - 50px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33% - 50px);
+    max-width: calc(33% - 50px);
+    width:100%;
+}
+}
+
+@media screen and (min-width: 883px) and (max-width: 991px){
+.zoom {
+    margin: 20px;
+    -ms-flex: 0 0 calc(33% - 80px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33% - 80px);
+    max-width: calc(33% - 80px);
+    width:100%;
+}
+}
+
+.ss{
+    margin: 0px;
+}
+.zoo{
+    overflow: hidden; 
+    transition: all 1.5s ease;
+    position: relative;
+}
+
+.zoo:hover .item-img{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+

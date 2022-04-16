@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en-AL">
+    <head>
+        <title>Secret Garden</title>
+        <link href="/logo3.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="height=device-height, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+    
+  <style>
+
+@media only screen and (min-width : 319px) and (max-width : 322px) {
+    .secret{
+        font-size:100%;
+        height: 110px;
+    }
+    .im{
+       height:100px; 
+    }
+    .fs{
+        font-size: 25px;
+    }
+    .actym{
+        font-size: 110%;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:9px;
+    }
+    .em{
+        display:none;
+    }  
+}
+
+@media screen and (device-height: 812px) and (device-width: 375px) {
+    .fs{
+        font-size: 190%;
+     }
+    .actym{
+        font-size: 275%;
+     }
+    .main-btn{
+        font-size:29px;
+        margin-left: -90px;
+    }
+    .h-link{
+        font-size:20px;
+        margin-top: 20px;
+    }
+}     
+      
+@media only screen and (min-device-width : 330px) and (max-device-width : 409px) {
+    .secret{
+        font-size:150%;
+        height: 190px;
+    }
+    .fs{
+        font-size: 29px;
+    }
+    .actym{
+        font-size: 140%;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:11px;
+        margin-left:-20px;
+    }
+    .em{
+        display:none;
+    }  
+}
+
+@media only screen and (min-device-width : 410px) and (max-device-width : 580px) {
+    .secret{
+        font-size:150%;
+        height: 190px;
+    }
+    .fs{
+        font-size: 39px;
+    }
+    .actym{
+        font-size: 190%;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:11px;
+    }
+    .em{
+        display:none;
+    }  
+}
+
+@media only screen and (min-device-width : 330px) and (max-device-width : 409px) {
+    .secret{
+        font-size:150%;
+        height: 190px;
+    }
+    .fs{
+        font-size: 29px;
+    }
+    .actym{
+        font-size: 140%;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:11px;
+        margin-left:-20px;
+    }
+    .em{
+        display:none;
+    }  
+}
+
+@media only screen and (device-width : 640px) {
+    .secret{
+        font-size:200%;
+        height: 120px;
+        max-width:none;
+    }
+    .fs{
+        font-size: 19px;
+    }
+    .actym{
+        font-size: 90%;
+        margin-top:-30px;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:8px;
+        margin-top:-10px;
+    }
+    .em{
+        display:none;
+    }  
+    .im{
+        height:120px;
+        width:50%;
+    }
+    .btn1{
+        margin-bottom:100px;
+    }
+}
+
+@media only screen and (device-width : 600px) {
+    .secret{
+        font-size:150%;
+        height: 260px;
+    }
+    .im{
+        height:250px;
+        width:580px;
+    }
+    .fs{
+        font-size: 63px;
+    }
+    .actym{
+        font-size: 310%;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:19px;
+    }
+    .em{
+        display:none;
+    }  
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .secret{
+        font-size:550%;
+    }
+    .actym{
+        font-size: 430%;
+    }
+    .fs{
+        font-size: 73px;
+    }
+    .h-link{
+        font-size:25px;
+    }
+    .main-btn{
+        font-size:25px;
+        margin-left: -80px;
+    }
+}
+
+@media only screen and (device-width : 800px) {
+    .secret{
+        font-size:150%;
+        height: 380px;
+    }
+    .im{
+        height:370px;
+        width:780px;
+    }
+    .fs{
+        font-size: 63px;
+    }
+    .actym{
+        font-size: 250%;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:24px;
+    }
+    .em{
+        display:none;
+    }  
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) { /*pc*/
+    .secret{
+        font-size:50%;
+        height:200px;
+    }
+    .im{
+        height:190px;
+    }
+    .fs{
+        font-size: 40px;
+    }
+    .actym{
+        font-size: 210%;
+    }
+    .sp-btn{
+        font-size:20px;
+        margin-left: -70px;
+    }
+    .h-link{
+        font-size:13px;
+        margin-top:50px;
+    }
+}
+
+@media only screen and (device-width : 1440px) {
+    .secret{
+        font-size:150%;
+        height: 620px;
+    }
+    .im{
+        height:570px;
+        width:610px;
+    }
+    .fs{
+        font-size: 63px;
+    }
+    .actym{
+        font-size: 250%;
+    }
+    .sp-btn{
+        display:none;
+    }
+    .h-link{
+        font-size:24px;
+    }
+    .em{
+        display:none;
+    }  
+}
+
+    </style>
+
+</head>
+
+<body>
+
+<!--########  social media and email  #######-->
+    
+<div class="container-fluid into p-2" id="start">
+    <div class="row">
+        <div class="col d-flex justify-content-between flex-wrap">
+            <div class="icon p-2">
+                <a href="" title="Faqja zyrtare ne Facebook" class="mr-2px primary-color">
+                   <i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/the.secret.garden__/" title="Faqja zyrtare ne instagram"  class="mr-2px primary-color">          <i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+       </div>
+       <h5 class="primary-color em" style="padding-top:11px;">Email:secretgarden@gmail.com  ||</h5>&ensp;<h5 class="primary-color " style="padding-top:11px;">Numri: 0685572545</h5>&ensp; &ensp;
+    </div>
+</div>
+    
+   <!--###### end of social media and email  ######-->
+   
+   
+   
+   <!-- ################ HEAD #################### -->
+    <div class="head">
+<header id="head" style="height: 100%">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <br>
+                    <center>
+                        <div class="banner text-center">
+                            <h3 class="secret display-1 primary-color">
+                                <img class="im" style="margin-left: auto; margin-right: auto; max-width:100%;" src="/logo2.jpg">
+                            </h3>
+                                <div class ="fs">Flower shop</div>
+                                <br>
+                                <br>
+                                <div class="actym">Adding colours to your moments</div>
+                                <br>
+                        </div>
+                    </center>
+                <a href="#oferta" title="Klikoni ketu per te blere online" class="btn main-btn sp-btn my-3 primary-color">Blini online</a>
+            </div>
+        </div>
+        <br>
+    </div>  
+  <a href="#navbar1" title="Klikoni shigjeten per te shkuar poshte" class="btn h-link btn1 primary color" >
+  <i class="fas fa-arrow-down"></i>
+  </a>
+</header>
+     </div>
+    <!-- ################ end of HEAD #################### -->
+
+    
+    
+    
+    
+    <!-- ################ navbar #################### -->
+    
+ <nav id="navbar1" class=" navbar navbar-expand-lg ">
+     <div class="container">
+        <a class="navbar-brand"  href="index.html">
+            <img src="/logo.png" title="Secret Garden Logo" alt="Secret Garden logo" style="width:130px;"> 
+        </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" onclick="myFunction(this)"> 
+                <div class="toggler-btn">
+                <div class="icon-bar top-bar"></div>
+                <div class="icon-bar middle-bar"></div>
+                <div class="icon-bar bottom-bar"></div>
+                </div>
+             </button> 
+                
+         <div class="collapse navbar-collapse " id="myNavbar" style="text-align: center">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item ">
+                  <a href="#oferta" class="nav-link" title="Oferta"><b>Oferta</b></a>
+                </li> 
+                <li class="nav-item ">
+                  <a href="#raste" class="nav-link" title="Raste"><b>Raste</b></a>
+                </li> 
+                <li class="nav-item ">
+                  <a href="#lule" class="nav-link" title="Lule"><b>Lule</b></a>
+                </li> 
+                <li class="nav-item ">
+                  <a href="#dhurata" class="nav-link" title="Dhurata"><b>Dhurata</b></a>
+                </li> 
+                <li class="nav-item ">
+                <a href="#rrethnesh" class="nav-link" title="Rreth Nesh"><b>Rreth nesh</b></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#vendodhja" class="nav-link" title="Vendodhja"><b>Vendodhja</b></a>
+                </li>
+           </ul>
+                
+             <a href="cart.php" style="text-decoration: none;">
+           <span class="cart-icon mr-lg-3">
+               <i class="fas fa-shopping-cart"></i> <span id="cart-item">0</span>
+           </span>
+         </a>
+         
+        <form class="form-inline d-none d-lg-block"></form>
+       </div>
+    </div>
+</nav>
+    
+    <!-- ################ end of NAVBAR #################### -->
+    
+
+    
+<!--########################################  MENU #####################-->
+    <section class="py-3" id="oferta">
+      <div class="container my-5">
+      <h4 class="pffff">.</h4>
+        <h1 class="primary-color text-uppercase pff"><b>Oferta</b></h1>
+        <h3 class="pffff">.</h3>
+      <div class="row parent-container">
+       <!--end of the title of menu-->
+      
+       <!--single product item--> 
+            <div class="column justify-content-between d-flex my-3 p-3">
+               <div class="card">
+                <img src="20200411_153742.jpg" alt="Item" style="width:100%" class="aaaaaa">
+                  <br>
+                   <h2 class="primary-color aaaa" style="font-size:26px;">Trendafil</h2>
+                   <p class="price aaaa" style="text-decoration: line-through; font-size: 16px; padding: 0; margin:0;">600L</p>
+                   <p class="price aaaa" style=" padding: 0; margin:0;"><b>600L</b></p>
+                     
+                     <a href="produkt.php" style="text-decoration:none;">
+                      <div class="sss">
+                       <div style="font-size: 1px;">.</div>
+                         <h5 style="text-align: center; font-size: 16px; margin-top:5px; color: #F7EBEB">Shikoni me shume</h5>
+                       <div style="font-size: 1px;">.</div>
+                      </div>
+                     </a>
+               </div>
+            </div>   
+       <!--END of single product item--> 
+     
+       <!--single product item--> 
+            <div class="column justify-content-between d-flex my-3 p-3">
+               <div class="card">
+                <img src="20200411_153742.jpg" alt="Item" style="width:100%" class="aaaaaa">
+                  <br>
+                   <h2 class="primary-color aaaa" style="font-size:26px;">Trendafil</h2>
+                   <p class="price aaaa" style="text-decoration: line-through; font-size: 16px; padding: 0; margin:0;">600L</p>
+                   <p class="price aaaa" style=" padding: 0; margin:0;"><b>600L</b></p>
+                     
+                     <a href="produkt.php" style="text-decoration:none;">
+                      <div class="sss">
+                       <div style="font-size: 1px;">.</div>
+                         <h5 style="text-align: center; font-size: 16px; margin-top:5px; color: #F7EBEB">Shikoni me shume</h5>
+                       <div style="font-size: 1px;">.</div>
+                      </div>
+                     </a>
+               </div>
+            </div>   
+       <!--END of single product item--> 
+     
+       <!--single product item--> 
+            <div class="column justify-content-between d-flex my-3 p-3">
+               <div class="card">
+                <img src="20200411_153742.jpg" alt="Item" style="width:100%" class="aaaaaa">
+                  <br>
+                   <h2 class="primary-color aaaa" style="font-size:26px;">Trendafil</h2>
+                   <p class="price aaaa" style="text-decoration: line-through; font-size: 16px; padding: 0; margin:0;">600L</p>
+                   <p class="price aaaa" style=" padding: 0; margin:0;"><b>600L</b></p>
+                     
+                     <a href="produkt.php" style="text-decoration:none;">
+                      <div class="sss">
+                       <div style="font-size: 1px;">.</div>
+                         <h5 style="text-align: center; font-size: 16px; margin-top:5px; color: #F7EBEB">Shikoni me shume</h5>
+                       <div style="font-size: 1px;">.</div>
+                      </div>
+                     </a>
+               </div>
+            </div>   
+       <!--END of single product item--> 
+     
+       <!--single product item--> 
+            <div class="column justify-content-between d-flex my-3 p-3">
+               <div class="card">
+                <img src="20200411_153742.jpg" alt="Item" style="width:100%" class="aaaaaa">
+                  <br>
+                   <h2 class="primary-color aaaa" style="font-size:26px;">Trendafil</h2>
+                   <p class="price aaaa" style="text-decoration: line-through; font-size: 16px; padding: 0; margin:0;">600L</p>
+                   <p class="price aaaa" style=" padding: 0; margin:0;"><b>600L</b></p>
+                     
+                     <a href="produkt.php" style="text-decoration:none;">
+                      <div class="sss">
+                       <div style="font-size: 1px;">.</div>
+                         <h5 style="text-align: center; font-size: 16px; margin-top:5px; color: #F7EBEB">Shikoni me shume</h5>
+                       <div style="font-size: 1px;">.</div>
+                      </div>
+                     </a>
+               </div>
+            </div>   
+       <!--END of single product item--> 
+     
+       <!--single product item--> 
+            <div class="column justify-content-between d-flex my-3 p-3">
+               <div class="card">
+                <img src="20200411_153742.jpg" alt="Item" style="width:100%" class="aaaaaa">
+                  <br>
+                   <h2 class="primary-color aaaa" style="font-size:26px;">Trendafil</h2>
+                   <p class="price aaaa" style="text-decoration: line-through; font-size: 16px; padding: 0; margin:0;">600L</p>
+                   <p class="price aaaa" style=" padding: 0; margin:0;"><b>600L</b></p>
+                     
+                     <a href="produkt.php" style="text-decoration:none;">
+                      <div class="sss">
+                       <div style="font-size: 1px;">.</div>
+                         <h5 style="text-align: center; font-size: 16px; margin-top:5px; color: #F7EBEB">Shikoni me shume</h5>
+                       <div style="font-size: 1px;">.</div>
+                      </div>
+                     </a>
+               </div>
+            </div>   
+       <!--END of single product item--> 
+     
+       <!--single product item--> 
+            <div class="column justify-content-between d-flex my-3 p-3">
+               <div class="card">
+                <img src="20200411_153742.jpg" alt="Item" style="width:100%" class="aaaaaa">
+                  <br>
+                   <h2 class="primary-color aaaa" style="font-size:26px;">Trendafil</h2>
+                   <p class="price aaaa" style="text-decoration: line-through; font-size: 16px; padding: 0; margin:0;">600L</p>
+                   <p class="price aaaa" style=" padding: 0; margin:0;"><b>600L</b></p>
+                     
+                     <a href="produkt.php" style="text-decoration:none;">
+                      <div class="sss">
+                       <div style="font-size: 1px;">.</div>
+                         <h5 style="text-align: center; font-size: 16px; margin-top:5px; color: #F7EBEB">Shikoni me shume</h5>
+                       <div style="font-size: 1px;">.</div>
+                      </div>
+                     </a>
+               </div>
+            </div>   
+       <!--END of single product item--> 
+     
+       
+  
+  
+  </div>
+  </div>
+   </section>
+   <!--######################################## End of MENU #####################-->
+ 
+  
+<!--###### Raste ######-->
+
+<section class="py-3" id="raste">
+ <div class="container my-2">
+    <h6 class="pfff">.</h6>
+    <br>
+    <br> 
+    <h1 class="text-uppercase pff"><b>Raste</b></h1>
+      
+      <div class="row parent-container">
+       
+     <!--item-->
+       <div class="zoom">
+        <a href="Lule.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Ditelindje</h5>
+           <div style="font-size: 1px;">.</div>
+          </div>
+        </a>
+       </div>
+     <!--end of item-->
+            
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Urime</h5>
+           <div style="font-size: 1px;">.</div>
+          </div>
+        </a>
+       </div>
+     <!--end of item-->
+             
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Sherim te shpejte</h5>
+           <div style="font-size: 1px;">.</div>       
+          </div>
+        </a>
+       </div>
+     <!--end of item-->
+           
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Pervjetor martese</h5>
+           <div style="font-size: 1px;">.</div>       
+          </div>
+        </a>
+       </div>
+     <!--end of item-->
+      
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Dhurata martese</h5>
+           <div style="font-size: 1px;">.</div>       
+         </div>
+        </a>
+       </div>
+     <!--end of item-->
+      
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Dalje ne pension</h5>
+           <div style="font-size: 1px;">.</div>       
+          </div>
+        </a>
+       </div>
+     <!--end of item-->
+      
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+            <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Lindje</h5>
+            <div style="font-size: 1px;">.</div>       
+          </div>
+        </a>
+       </div>
+     <!--end of item-->
+     
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB">Faleminderit</h5>
+           <div style="font-size: 1px;">.</div>       
+          </div>
+        </a>
+       </div>
+     <!--end of item-->
+      
+     <!--item-->
+       <div class="zoom">
+        <a href="Sandwich.php" style="text-decoration: none;">
+         <img src="hb.jpg" class="img-fluid item-img" alt="item" >
+          <div class="sss">
+           <h5 class="text-uppercase" style="text-align: center; font-size: 20px; color: #F7EBEB;">Fejese</h5>
+           <div style="font-size: 1px;">.</div>   
+          </div>
+        </a>
+       </div>
+     <!--end ofn item-->   
+             
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</section>
+
+<!--######## Fundi i rasteve ##########-->
+
+
+ <!--############# LULE ###############-->
+<section class="py-5" id="lule">
+  <div class="container my-5">
+    <h1 class="primary-color text-uppercase pff"><b>Lule</b></h1>
+      <h3 class="pffff">.</h3>
+        <div class="row parent-container">
+      
+          <!--product-->
+             <div class="col col-9 mx-auto col-sm-6 col-lg-4">
+               <div class="zoo">
+                 <a href="luletebrendshme.html" alt="Lule te brendshme" title="Lule te brendshme"><img src="hb.jpg" alt="Lule te brendshme" class="img-fluid item-img"></a>
+                  <div class="sss" style="background-color: #F7EBEB; border-bottom: 2px solid #171717; border-right: 2px solid #171717; border-left: 2px solid #171717;">
+                   <h5 class="text-uppercase primary-color" style="text-align: center; font-size: 25px; margin-top: 10px;"><b>Te Brendshme</b></h5>
+                  </div>
+              </div>
+            </div>
+          <!--end of product-->
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+          <!--product-->
+             <div class="col col-9 mx-auto col-sm-6 col-lg-4">
+               <div class="zoo">
+                 <a href="luletejashtme.html" alt="Lule te jashtme" title="Lule te jashtme"><img src="hb.jpg" alt="Lule te jashtme" class="img-fluid item-img"></a>
+                  <div class="sss" style="background-color: #F7EBEB; border-bottom: 2px solid #171717; border-right: 2px solid #171717; border-left: 2px solid #171717;">
+                   <h5 class="text-uppercase primary-color" style="text-align: center; font-size: 25px; margin-top:10px;"><b>Te Jashtme</b></h5>
+                  </div>
+               </div>
+            </div>
+          <!--end of product-->
+  
+        </div>
+  </div>
+</section>
+   
+<!--######### End of LULE ###########-->
+
+   
+  <!-- ###############   ABOUT US #############-->
+   
+   
+   <section class="aboutus py-3" id="rrethnesh">
+       <div class="container my-5">
+         <br>
+         <br>
+          <h1 class="primary-color text-uppercase pff"><b>Rreth nesh</b></h1>
+           <div class="row">
+               <div class="col mx-auto col-lg-7 py-4">
+                   <p class="primary-color my-4 tex" style="font-size:17px;"><b style="font-size:35px;">The Secret Garden</b><br><br>
+                   <b>L</b>ulet mund të thonë aq shumë pa thënë asnjë fjalë.<br>
+                   <br>
+<b>K</b>a dicka rreth marrjes së dhuratës së dhuratës së luleve që mund të thonë aq shumë.  <br>
+
+Nuk do të ketë kurrë një buqetë tjetër tamam si e juaja.<br>
+<br>
+<b>M</b>bajtja e dhuratës tuaj të freskët dhe me lulëzim, së bashku me njohjen e disa prej kuptimeve të llojeve të ndryshme të luleve që ju merrni, ju bën të kuptoni se njerëzit po mendojnë për ju.
+
+ </p>
+      <a href="aboutus.html" class="btn read-btn my-3 primary-color" title="Klikoni ketu per te pare me shume">LEXONI ME SHUME</a>
+               </div>
+               
+               
+               <div class=" col-lg-5 my-4 au-image align-self-center d-lg-block d-none">
+                      <br>
+                       <img src="hb.jpg" class="img-fluid image-au img-1" alt="">
+                <br>
+                <br>
+               </div>
+           <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+           </div>
+       </div>
+       
+   </section>
+   
+  
+   <!-- ######################   End of ABOUT US #############-->
+<section class="vendodhja" id="vendodhja">
+      <br>
+      <br>
+       <div class="container-fluid my-5">
+          <h1 class="primary-color text-uppercase pff"><b>Vendodhja</b></h1>
+           
+ </div>
+    <center>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.998017088382!2d19.82544701531277!3d41.330656479269415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13503114f60e72d3%3A0x984453a8b0fb6c29!2sThe%20Secret%20Garden%20Flower%20Shop!5e0!3m2!1sen!2s!4v1586626104651!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </center>
+ 
+  </section>
+
+    <!-- ########### Footer #############-->
+    
+<div style="background-color: #F7EBEB;"> 
+    <div class="footer" >
+        <br>
+            <h5 class="primary-color">Ne jemi te hapur 24 ore ne dite, ne 7 dite te javes!</h5>
+                <div class="icon">
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRlRHxTFwztpSvWltSRQZznQSdQLgKTbKWmmwcxvwFQJbPDKvMldxWwGvxZTDFvDsWqlzJb" title="Na kontaktoni ne Gmail" class="lord mr-3px social-media">
+                        <i class="far fa-envelope" style="font-size:39px;"></i>
+                    
+                    <span class="primary-color" style="font-size:15px;">secretgarden@gmail.com</span></a>&nbsp; &nbsp; &nbsp; &nbsp; &ensp;
+            
+                    <a href="tel:0685572545" title="Numri i telefonit"  class="mr-3px lord social-media">
+                        <i class="fa fa-phone" style="font-size:37px;"></i>
+                    
+                    <span class="primary-color" style="font-size:15px;">0685572545</span></a>&nbsp; &nbsp; &nbsp; &nbsp; &ensp; 
+            
+                    <a href="https://www.google.com/maps/search/sauk+i+vjeter/@41.3389475,19.7956444,12z/data=!3m1!4b1" title="Vendodhja"  class="mr-3px lord social-media">
+                        <i class="fas fa-home" style="font-size:37px;"></i>
+                    <span class="primary-color" style="font-size:15px;">Hoxha Tahsim</span></a>
+                        
+                    <hr style="primary-color">
+                 </div>
+    </div> 
+     <br>
+   
+   <center>
+          <form method="post" action="//submit.form" style="background-color: #F7EBEB;" onSubmit="return validateForm();">
+            <div style="padding-bottom: 18px;font-size : 20px;">Vendosni emailin tuaj per t'u njoftuar per ofertat me te fundit</div>
+               <input type="email" id="ne" name="email" placeholder="Fusni emailin" style="width:230px;" required>
+                    <input type="submit" value="Dergoni" style="background-color: black; color: white;">
+                        
+                        <div> 
+                            <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email" style="display: none;">form to email</a></div>
+                            
+                            <script src="https://www.100forms.com/js/FORMKEY:8BS7AUXRMTN7/SEND:kejsi.rroshi05@gmail.com" type="text/javascript"></script>
+                        </div>
+        </form>
+       
+        <br>
+        <br>
+        <h5 class="primary-color ss"><b>2020 &copy; The Secret Garden</b></h5>
+    </center> 
+</div>
+    
+<!--########  END OF FOOTER  #########-->
+ <script>
+ 
+       function validateForm() {
+
+if (isEmpty(document.getElementById('ne').value.trim())) {
+alert('Fusni emailin!');
+return false;
+}
+if (!validateEmail(document.getElementById('ne').value.trim())) {
+alert('Nuk keni vendosur nje adrese emaili!');
+return false;
+}
+return true;
+}
+
+    
+function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+function validateEmail(email) {
+var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+return isEmpty(email) || re.test(email);
+}
+     window.onscroll = function() {myFunction()};
+
+var navbar1 = document.getElementById("navbar1");
+var sticky = navbar1.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar1.classList.add("sticky")
+  } else {
+    navbar1.classList.remove("sticky");
+  }
+}
+</script>
+    <script src="/Javascript/all.js"></script>
+    <script src="/Javascript/script.js"></script>
+    <script src="/Javascript/jquery-3.4.1.min.js"></script>
+    <script src="/Javascript/bootstrap.bundle.min.js"></script>
+    <script src="/Javascript/jscript1.js"></script>
+
+    </body>
+</html>
+
